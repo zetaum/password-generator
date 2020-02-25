@@ -1,5 +1,9 @@
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
+// Special characters for the password created
+const specialCharacters = "!@#$%^&*()";
+const generateButton = document.getElementById('generate')
+
+// Add event listener to generate button
+generateButton.addEventListener('click', writePassword)
 
 // Write password to the #password input
 function writePassword() {
@@ -10,5 +14,3 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
