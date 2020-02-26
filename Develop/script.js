@@ -17,15 +17,15 @@ function writePassword() {
 // Prompts and confirms that pop up after click on button generate password
 
 function generatePassword() {
-  var passwordLength = prompt("Length of the password (must be > 12 and < 128.)");
+  var passwordLength = prompt("Length of the password");
 
-  var numbers = confirm("Would you like to include numbers in your password?");
+  var numbers = confirm("Would you like to include numbers in the password?");
 
-  var lowerCases = confirm("Would you like to include lowercases in your password?");
+  var lowerCases = confirm("Would you like to include lowercases in the password?");
 
-  var upperCases = confirm("Would you like to include uppercases in your password?");
+  var upperCases = confirm("Would you like to include uppercases in the password?");
 
-  var special = confirm("Would you like to include special characters in your password?");
+  var special = confirm("Would you like to include special characters in the password?");
 
   // this is a minimum count for numbers, lowerCases, upperCases & specialCharacters
   var minimumCount = 0;
